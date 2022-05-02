@@ -1,2 +1,7 @@
-# matlab-rkm-fem
-Runge Kutta method (RKM) for solving initial value problems (IVP's) of arbitraty order for finite element problems in MATLAB.
+# Runge-Kutta methods for solving initial value problems for FE problems with MATLAB
+
+## Purpose
+This code solves any **initial value problem (IVP)** of arbitraty order for **finite element (FE)** problems using a **Runge Kutta method (RKM)** spcified by a **Butcher tableau** or method name.
+
+## Limitations
+Currently, _only non-adaptive RKM_ are supported. Solution algorithms are currently only given for _explicit_ (not for _implicit_) problems. The latter will later be implemented using the **Newton-Raphson-algorithm** to solve the system of equations at every stage of the RKM.
